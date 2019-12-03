@@ -2,10 +2,9 @@
 
 from aws_cdk import core
 
-from hello.hello_stack import MyStack
+from crrcopy.crrcopy_stack import MyStack
 
 
 app = core.App()
-MyStack(app, "hello-cdk-1", env={'account': '','region': ''})
-#MyStack(app, "hello-cdk-1", env={'region': 'cn-northwest-1'})
+MyStack(app, "crrcopy-cdk-1", env={'account': '294739772493','region': 'ap-northeast-1'})
 app.synth()

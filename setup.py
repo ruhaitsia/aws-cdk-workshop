@@ -6,17 +6,17 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="hello",
+    name="s3_cross_region_copy",
     version="0.0.1",
 
-    description="A sample CDK Python app",
+    description="Automatically lauch cross region ",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    author="author",
+    author="Cai Ruhai",
 
-    package_dir={"": "hello"},
-    packages=setuptools.find_packages(where="hello"),
+    package_dir={"": "crrcopy"},
+    packages=setuptools.find_packages(where="crrcopy"),
 
     install_requires=[
         "aws-cdk.core",
@@ -28,7 +28,8 @@ setuptools.setup(
         "aws-cdk.aws_lambda",
         "aws-cdk.aws_dynamodb",
         "aws-cdk.aws_s3_notifications",
-        "aws-cdk.aws_iam"
+        "aws-cdk.aws_iam",
+        "aws-cdk.aws_s3_deployment"
     ],
 
     python_requires=">=3.6",

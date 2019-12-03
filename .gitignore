@@ -1,0 +1,7 @@
+.ignore
+.DS_Store
+/.env/
+/cdk.out/
+/.idea/
+/crrcopy/s3_cross_region_copy.egg-info/
+/crrcopy/__pycache__/
