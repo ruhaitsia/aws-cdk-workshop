@@ -6,5 +6,5 @@ from crrcopy.crrcopy_stack import MyStack
 
 
 app = core.App()
-MyStack(app, "crrcopy-cdk-1", env={'account': '294739772493','region': 'ap-northeast-1'})
+MyStack(app, "crrcopy-cdk-1", env={'account': '','region': ''})
 app.synth()
