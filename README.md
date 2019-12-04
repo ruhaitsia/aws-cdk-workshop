@@ -5,10 +5,10 @@ S3 数据复制到中国，在中国进行进一步分析处理。AWS  S3 在海
 海外区域隔离，不能使用CRR功能。但是通过Lambda和S3的multipart upload接口，我们可以轻松实现跨区域拷贝。请参阅博客文章[分布式 Lambda 从海外到中国自动同步S3文件](http://coolsearch.s3-website-us-east-1.amazonaws.com/ "分布式 Lambda 从海外到中国自动同步S3文件")
 了解不同方案的细节。
 
-[分布式 Lambda 从海外到中国自动同步S3文件](http://coolsearch.s3-website-us-east-1.amazonaws.com/ "分布式 Lambda 从海外到中国自动同步S3文件")
+[分布式 Lambda 从海外到中国自动同步S3文件](https://amazonaws-china.com/cn/blogs/china/lambda-overseas-china-s3-file/ "分布式 Lambda 从海外到中国自动同步S3文件")
 提供了详细的解决方案，如果我们想要更进一步，让程序自动帮忙我们创建资源，一键实现方案部署，应该如何去做呢？借助AWS CDK可以轻松帮我们实现一键部署。
 
-我们以[分布式 Lambda 从海外到中国自动同步S3文件](http://coolsearch.s3-website-us-east-1.amazonaws.com/ "分布式 Lambda 从海外到中国自动同步S3文件")文中方案3为例，
+我们以[分布式 Lambda 从海外到中国自动同步S3文件](https://amazonaws-china.com/cn/blogs/china/lambda-overseas-china-s3-file/ "分布式 Lambda 从海外到中国自动同步S3文件")文中方案3为例，
 指导大家利用AWS CDK实现一键部署。方案3的架构图如下：
 
 ![架构图](https://s3.cn-north-1.amazonaws.com.cn/awschinablog/Lambda+(3).png "Demo")
